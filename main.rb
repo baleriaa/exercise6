@@ -32,5 +32,9 @@ class Button
         @y_position = y
         @label
     end
+    def label_text(label)
+        self.label = label
+    end
+
 
 end
