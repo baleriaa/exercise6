@@ -10,7 +10,10 @@
 #   end
 
 class Window
-
+    def initialize(foreground_color = 0, other_color = 0)
+        @foreground_color
+        @other_color
+    end
 
 end
 
