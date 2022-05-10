@@ -14,6 +14,15 @@ class Window
         @foreground_color
         @other_color
     end
+    def paint(is_dark_mode)
+        if is_dark_mode
+            self.foreground_color = foreground_color - 10
+            self.other_color = '#111111'
+        else
+            self.foreground_color = foreground_color + 10
+            self.other_color = '#E0E0E0'
+
+    end
 
 end
 
