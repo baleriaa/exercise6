@@ -18,6 +18,10 @@ class Window
 end
 
 class Button
-
+    def initialize(x, y, label = "None")
+        @x_position = x
+        @y_position = y
+        @label
+    end
 
 end
